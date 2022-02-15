@@ -14,9 +14,9 @@ const morePlaces = ['kochi', 'hyderabad', 'Shimla', 'Srinagar']
 //result = ['gurgaon', 'jaipur', 'pune']
 
 
-// const [first, ...rest] = places; 
+const [first, ...rest] = places; 
 
-// console.log([...rest]); 
+console.log([...rest]); 
 
 //2.
 
@@ -26,9 +26,9 @@ const morePlaces = ['kochi', 'hyderabad', 'Shimla', 'Srinagar']
 
 // ============================================================================= //
 
-// const [first, ...rest] = places; 
+const [first, ...rest] = places; 
 
-// console.log([first, ...morePlaces]); 
+console.log([first, ...morePlaces]); 
 
 
 // 3.
@@ -71,13 +71,13 @@ const myData = {
 
 // destructure and store pincode into a variable named myPincode
 
-// const {address: myPincode} = myData; 
-// console.log(myPincode.pinCode)
+const {address: myPincode} = myData; 
+console.log(myPincode.pinCode)
 
 
 // 5.
 
 // destructure and store second like into a vaiable named myLike
 
-// const {likes: myLike} = myData; 
-// console.log(myLike[1]); 
+const {likes: myLike} = myData; 
+console.log(myLike[1]); 
